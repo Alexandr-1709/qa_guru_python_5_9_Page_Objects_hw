@@ -1,1 +1,1 @@
-# -qa_guru_python_5_5_hw
+# qa_guru_python_5_5_hw
