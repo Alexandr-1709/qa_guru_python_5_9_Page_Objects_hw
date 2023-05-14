@@ -21,7 +21,7 @@ class RegistrationFormPage:
         browser.all('[name=gender]').element_by(have.value(f'{value}')).double_click()
 
     def fill_in_phone_number(self, value):
-        browser.element('#userNumber').type('9009997733')
+        browser.element('#userNumber').type(value)
 
     def fill_in_date_of_birth(self, day, month, year):
         browser.element('#dateOfBirthInput').press()
